@@ -40,8 +40,8 @@ importers:
         specifier: 4.4.1
         version: 4.4.1(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
       '@sveltejs/adapter-static':
-        specifier: 3.0.10
-        version: 3.0.10(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@8.1.1)(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.4.4(@types/node@22.20.5)(jiti@2.7.0)(lightningcss@1.32.0)))(svelte@5.57.2(@typescript-eslint/types@8.72.0))(typescript@5.9.3)(vite@6.4.4(@types/node@22.20.5)(jiti@2.7.0)(lightningcss@1.32.0)))
+        specifier: 4.0.1
+        version: 4.0.1(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@8.1.1)(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.4.4(@types/node@22.20.5)(jiti@2.7.0)(lightningcss@1.32.0)))(svelte@5.57.2(@typescript-eslint/types@8.72.0))(typescript@5.9.3)(vite@6.4.4(@types/node@22.20.5)(jiti@2.7.0)(lightningcss@1.32.0)))
       '@sveltejs/adapter-vercel':
         specifier: 5.10.3
         version: 5.10.3(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@8.1.1)(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.4.4(@types/node@22.20.5)(jiti@2.7.0)(lightningcss@1.32.0)))(svelte@5.57.2(@typescript-eslint/types@8.72.0))(typescript@5.9.3)(vite@6.4.4(@types/node@22.20.5)(jiti@2.7.0)(lightningcss@1.32.0)))(rollup@4.37.0)(supports-color@8.1.1)
@@ -590,10 +590,10 @@ packages:
     peerDependencies:
       acorn: ^8.9.0
 
-  '@sveltejs/adapter-static@3.0.10':
-    resolution: {integrity: sha512-7D9lYFWJmB7zxZyTE/qxjksvMqzMuYrrsyh1f4AlZqeZeACPRySjbC3aFiY55wb1tWUaKOQG9PVbm74JcN2Iew==}
+  '@sveltejs/adapter-static@4.0.1':
+    resolution: {integrity: sha512-svOU1OcBiJ9Kn1cdxHDmJIsBy1/iQe9STPvUFkO2/iinxPFS7r8fc9TiCaWWUgbrE+7ox6Bt4MURv3RPi7sunQ==}
     peerDependencies:
-      '@sveltejs/kit': ^2.0.0
+      '@sveltejs/kit': ^3.0.0-next.0
 
   '@sveltejs/adapter-vercel@5.10.3':
     resolution: {integrity: sha512-fW2ZhMiOrUKsJJhiB4ift9sYDSFWgvH3N22cjf8ukOyWgHolb9SmSS3owr+nHQNlgTEAdy4eIr4Fnasw3nkxTw==}
@@ -1603,11 +1603,6 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  nanoid@3.3.19:
-    resolution: {integrity: sha512-Y2tUNy4ouw6tq5oDSKeQYGOyhkUBhNOcGV/02KC+6kd9eDGqdZd++mjMiIDilrBYvjEnCYvVtsuHCuP+okSfug==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
-
   nanoid@3.3.20:
     resolution: {integrity: sha512-uKdg2G3GNCKQn9byYOpxbGqrT2fGO5KRt5J/8b3pok8rT6qxGWF6hxMyJiEYtAf+FVyYuD9hRaDqX5uPFYJ4ZQ==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -1720,10 +1715,6 @@ packages:
   postcss-selector-parser@7.1.0:
     resolution: {integrity: sha512-8sLjZwK0R+JlxlYcTuVnyT2v+htpdrjDOKuMcOVdYjt52Lh8hWRYpxBPoKx/Zg+bcjc3wx6fmQevMmUztS/ccA==}
     engines: {node: '>=4'}
-
-  postcss@8.5.28:
-    resolution: {integrity: sha512-RRuzqDtt5Y9h3quz5hWhK+TPnsmVs6WwSU6LkJMeY4HstUEDuYTG8UJSdawMRzmzAtV+KEoG8N3Qg2qLy5vM/A==}
-    engines: {node: ^10 || ^12 || >=14}
 
   postcss@8.5.31:
     resolution: {integrity: sha512-YUbWYCgErwnMAVkjUnYa+KlMBzGpHwiIt/DE7f0G33AuX2LH9UcTk6KgWxd3zRU+pN3u/C+Xl3EnMLM4Hea7Sg==}
@@ -2576,7 +2567,7 @@ snapshots:
     dependencies:
       acorn: 8.18.0
 
-  '@sveltejs/adapter-static@3.0.10(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@8.1.1)(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.4.4(@types/node@22.20.5)(jiti@2.7.0)(lightningcss@1.32.0)))(svelte@5.57.2(@typescript-eslint/types@8.72.0))(typescript@5.9.3)(vite@6.4.4(@types/node@22.20.5)(jiti@2.7.0)(lightningcss@1.32.0)))':
+  '@sveltejs/adapter-static@4.0.1(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@8.1.1)(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.4.4(@types/node@22.20.5)(jiti@2.7.0)(lightningcss@1.32.0)))(svelte@5.57.2(@typescript-eslint/types@8.72.0))(typescript@5.9.3)(vite@6.4.4(@types/node@22.20.5)(jiti@2.7.0)(lightningcss@1.32.0)))':
     dependencies:
       '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@8.1.1)(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.4.4(@types/node@22.20.5)(jiti@2.7.0)(lightningcss@1.32.0)))(svelte@5.57.2(@typescript-eslint/types@8.72.0))(typescript@5.9.3)(vite@6.4.4(@types/node@22.20.5)(jiti@2.7.0)(lightningcss@1.32.0))
 
@@ -3198,9 +3189,9 @@ snapshots:
       esutils: 2.0.3
       globals: 16.5.0
       known-css-properties: 0.37.0
-      postcss: 8.5.28
-      postcss-load-config: 3.1.4(postcss@8.5.28)
-      postcss-safe-parser: 7.0.1(postcss@8.5.28)
+      postcss: 8.5.31
+      postcss-load-config: 3.1.4(postcss@8.5.31)
+      postcss-safe-parser: 7.0.1(postcss@8.5.31)
       semver: 7.7.4
       svelte-eslint-parser: 1.8.0(svelte@5.57.2(@typescript-eslint/types@8.72.0))
     optionalDependencies:
@@ -3602,8 +3593,6 @@ snapshots:
 
   ms@2.1.3: {}
 
-  nanoid@3.3.19: {}
-
   nanoid@3.3.20: {}
 
   natural-compare@1.4.0: {}
@@ -3670,31 +3659,25 @@ snapshots:
 
   picomatch@4.0.3: {}
 
-  postcss-load-config@3.1.4(postcss@8.5.28):
+  postcss-load-config@3.1.4(postcss@8.5.31):
     dependencies:
       lilconfig: 2.1.0
       yaml: 1.10.2
     optionalDependencies:
-      postcss: 8.5.28
+      postcss: 8.5.31
 
-  postcss-safe-parser@7.0.1(postcss@8.5.28):
+  postcss-safe-parser@7.0.1(postcss@8.5.31):
     dependencies:
-      postcss: 8.5.28
+      postcss: 8.5.31
 
-  postcss-scss@4.0.9(postcss@8.5.28):
+  postcss-scss@4.0.9(postcss@8.5.31):
     dependencies:
-      postcss: 8.5.28
+      postcss: 8.5.31
 
   postcss-selector-parser@7.1.0:
     dependencies:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
-
-  postcss@8.5.28:
-    dependencies:
-      nanoid: 3.3.19
-      picocolors: 1.1.1
-      source-map-js: 1.2.1
 
   postcss@8.5.31:
     dependencies:
@@ -3889,8 +3872,8 @@ snapshots:
       eslint-scope: 8.4.0
       eslint-visitor-keys: 4.2.1
       espree: 10.4.0
-      postcss: 8.5.28
-      postcss-scss: 4.0.9(postcss@8.5.28)
+      postcss: 8.5.31
+      postcss-scss: 4.0.9(postcss@8.5.31)
       postcss-selector-parser: 7.1.0
       semver: 7.7.4
     optionalDependencies:
@@ -4053,7 +4036,7 @@ snapshots:
       esbuild: 0.25.4
       fdir: 6.5.0(picomatch@4.0.3)
       picomatch: 4.0.3
-      postcss: 8.5.28
+      postcss: 8.5.31
       rollup: 4.37.0
       tinyglobby: 0.2.15
     optionalDependencies:
